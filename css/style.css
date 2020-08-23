@@ -278,6 +278,58 @@ header .open {
     background-size: contain !important;
     min-height: 600px; }
 
+.content .cards {
+  margin-left: 50px; }
+  .content .cards .card {
+    width: 18rem;
+    margin-right: 5px;
+    margin-bottom: 5px; }
+    .content .cards .card:last-child {
+      margin-right: 0px; }
+    .content .cards .card .start {
+      position: absolute;
+      z-index: 2;
+      right: 5px;
+      color: gray; }
+    .content .cards .card h4 {
+      background-color: #146b95;
+      color: white;
+      position: absolute;
+      z-index: 2;
+      right: 5px;
+      bottom: 99px;
+      font-size: 12px;
+      padding: 2px 5px; }
+    .content .cards .card .img_card {
+      width: 100%;
+      background-repeat: no-repeat !important;
+      background-position: center center !important;
+      -webkit-background-size: cover !important;
+      -moz-background-size: cover !important;
+      -o-background-size: cover !important;
+      background-size: cover !important;
+      min-height: 140px;
+      position: relative; }
+    .content .cards .card .card-body {
+      padding: 10px;
+      background-color: #f0f1f1; }
+      .content .cards .card .card-body .card-title {
+        padding-bottom: 5px;
+        color: #0c6a93;
+        border-bottom: 1px solid #bdbdbd;
+        margin: 0px; }
+        .content .cards .card .card-body .card-title span {
+          color: #80737d; }
+      .content .cards .card .card-body .card-text {
+        font-size: 13px;
+        margin: 0px; }
+        .content .cards .card .card-body .card-text span {
+          color: #146b95; }
+      .content .cards .card .card-body .espectadores {
+        color: #899195;
+        font-size: 10px;
+        margin: 0px; }
+
 @media screen and (max-width: 991px) {
   header .box_logo {
     width: 100%;

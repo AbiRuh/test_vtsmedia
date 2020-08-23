@@ -347,6 +347,69 @@ header {
       min-height: 600px;
     }
   }
+  .cards {
+    margin-left: 50px;
+    .card {
+      width: 18rem;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      &:last-child  {
+        margin-right: 0px;
+      }
+      .start {
+        position: absolute;
+        z-index: 2;
+        right: 5px;
+        color: gray;
+      }
+      h4 {
+        background-color: #146b95;
+        color: white;
+        position: absolute;
+        z-index: 2;
+        right: 5px;
+        bottom: 99px;
+        font-size: 12px;
+        padding: 2px 5px;
+      }
+      .img_card {
+        width: 100%;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;
+        min-height: 140px;
+        position: relative;
+      }
+      .card-body {
+        padding: 10px;
+        background-color: #f0f1f1;
+        .card-title {
+          padding-bottom: 5px;
+          color: #0c6a93;
+          border-bottom: 1px solid #bdbdbd;
+          margin: 0px;
+          span {
+            color: #80737d;
+          }
+        }
+        .card-text {
+          font-size: 13px;
+          margin: 0px;
+          span {
+            color: #146b95;
+          }
+        }
+        .espectadores {
+          color: #899195;
+          font-size: 10px;
+          margin: 0px;
+        }
+      }
+    }
+  }
 }
 
 @import "components/responsive"; 
