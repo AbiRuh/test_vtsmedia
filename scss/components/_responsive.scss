@@ -28,4 +28,15 @@
       display: initial;
     }
   }
+
+  .content {
+    .box {
+      .category,
+      .category_avan,
+      .tabs_category,
+      .box_publi {
+        display: none !important;
+      }
+    }
+  }
 }
